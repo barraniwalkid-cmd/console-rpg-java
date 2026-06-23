@@ -5,5 +5,13 @@ public class Main {
 
 
         System.out.println("Bienvenue dans le Mini RPG");
+
+      Menu menu = new Menu();
+      menu.afficheMenu();
+
+
+
+
+
     }
 }
