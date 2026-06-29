@@ -5,9 +5,16 @@ public class Main {
 
 
         System.out.println("Bienvenue dans le Mini RPG");
+        Hero hero = null;
+        Menu menu = new Menu();
+        menu.afficheMenu((hero));
 
-      Menu menu = new Menu();
-      menu.afficheMenu();
+
+
+
+
+
+
 
 
 
